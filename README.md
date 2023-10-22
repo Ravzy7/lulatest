@@ -8,7 +8,7 @@ To run the automated tests, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/lulatest.git
+git clone git@github.com:Ravzy7/lulatest.git
 cd lulatest
 ```
 
