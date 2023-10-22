@@ -23,7 +23,7 @@ npm init playwright@latest
 
 During initialization, make sure to select the following settings:
 
-- TypeScript
+- Do you want to use TypeScript or JavaScript? `TypeScript`
 - Where to put your end-to-end tests: `tests`
 - Add a GitHub Actions workflow: `false`
 - Install Playwright browsers: `true`
