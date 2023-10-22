@@ -46,7 +46,9 @@ To set up test data, you'll need to use the `dotenv` package. First, install it:
 ```bash
 npm install dotenv
 ```
-
+```bash
+npm fund
+```
 Next, create a file called `.env` in the root of the project and paste the following data for a 100% pass rate:
 
 ```dotenv
