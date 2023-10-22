@@ -3,12 +3,16 @@ Test Task for Lula
 
 Welcome to the Lula Test repository. This repository contains a test task completed for Lula.
 
+Please note the instructions are for a Windows
 ## Running the Automated Tests
 To run the automated tests, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
 git clone git@github.com:Ravzy7/lulatest.git
+```
+
+```bash
 cd lulatest
 ```
 
