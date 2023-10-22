@@ -52,8 +52,11 @@ in the root of the project create a file called ".env" .
 paste the Following data for 100% pass rate:
 
 BASE_URL=https://www.saucedemo.com/
+
 USERNAME1= standard_user
+
 USERNAME2= performance_glitch_user
+
 PASSWORD= secret_sauce
 
 <h3>Executing tests<h3/>
