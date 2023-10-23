@@ -11,7 +11,7 @@ You don't need any previous automation experience to run these tests. Follow the
 Start by copying the code from this repository to your own computer. Open a terminal (a text-based window on your computer) and type the following command:
 
 ```bash
-git clone https://github.com/YourUsername/lulatest.git
+git clone https://github.com/Ravzy7/lulatest.git
 cd lulatest
 ```
 
