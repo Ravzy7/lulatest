@@ -93,4 +93,4 @@ To view a report of the test results, open the terminal and run:
 npx playwright show-report
 ```
 
-That's it! You've successfully run the tests, following the Page Object Model pattern using dotenv. If you have any questions, don't hesitate to ask. Happy testing!![image](https://github.com/Ravzy7/lulatest/assets/48820644/1c7c2b94-d3b2-4dff-9f0c-d7fb26c82933)
+That's it! You've successfully run the tests, following the Page Object Model pattern using dotenv. If you have any questions, don't hesitate to ask. Happy testing!
