@@ -3,25 +3,31 @@ Test Task for Lula
 
 Welcome to the Lula Test repository. This repository contains a test task completed for Lula.
 
-Please note the instructions are for a Windows
 ## Running the Automated Tests
-To run the automated tests, follow these steps:
+
+You don't need any previous automation experience to run these tests. Follow these simple steps:
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/Ravzy7/lulatest.git
-```
+Start by copying the code from this repository to your own computer. Open a terminal (a text-based window on your computer) and type the following command:
 
 ```bash
+git clone https://github.com/YourUsername/lulatest.git
 cd lulatest
 ```
 
-### 2. Initialize Playwright
+Press Enter, and it will copy everything you need to your computer.
+
+### 2. Install Node.js (If Not Installed)
+If you don't already have Node.js installed on your computer, you can download it from [Node.js website](https://nodejs.org/). Follow the installation instructions.
+
+### 3. Run Initialization Command
+In your terminal, type the following command to set up the testing environment:
+
 ```bash
 npm init playwright@latest
 ```
 
-During initialization, make sure to select the following settings:
+Press Enter and follow the prompts. When asked for options, choose the following:
 
 - Do you want to use TypeScript or JavaScript? `TypeScript`
 - Where to put your end-to-end tests: `tests`
@@ -29,27 +35,19 @@ During initialization, make sure to select the following settings:
 - Install Playwright browsers: `true`
 - "directory" already exists. Override it? `false`
 
-### 3. Install Playwright Browsers
+MOM (Moment of Making): At this point, you've just created the foundation for automated testing with Playwright, and we're about to set up the data needed for testing.
+
+### 4. Install Playwright Browsers
+Now, install the necessary tools by typing this command:
+
 ```bash
 npm install playwright
 ```
 
-### 4. Delete Example Tests (if they exist)
-Please delete the following files as they are created when Playwright is initialized:
+This command will install the software required for running tests.
 
-- `example.spec.ts`
-- `demo-todo-app.spec.ts`
-
-### 5. Configure Test Data with dotenv
-To set up test data, you'll need to use the `dotenv` package. First, install it:
-
-```bash
-npm install dotenv
-```
-```bash
-npm fund
-```
-Next, create a file called `.env` in the root of the project and paste the following data for a 100% pass rate:
+### 5. Configure Test Data with dotenv (POM Pattern)
+We'll set up the data needed for testing using dotenv, which follows the Page Object Model (POM) pattern. Copy the following lines:
 
 ```dotenv
 BASE_URL=https://www.saucedemo.com/
@@ -58,27 +56,41 @@ USERNAME2=performance_glitch_user
 PASSWORD=secret_sauce
 ```
 
-### 6. Execute Tests
+Open a text editor (like Notepad) and paste the lines into a new file. Save the file as `.env` (with the dot at the beginning) in the same folder as the project.
 
-#### Run Tests in UI Mode (Graphical Interface)
-To run the tests in UI mode with a graphical interface, use the following command in the terminal:
+### 6. Run Npm fund , to fund the projects
+
+
+```bash
+npm fund
+```
+
+
+
+### 7. Run the Tests
+
+#### Option 1: Graphical Interface
+If you prefer a user-friendly interface, run this command:
 
 ```bash
 npx playwright test --ui
 ```
 
-#### Run Tests in Terminal Mode
-To run the tests in the terminal, use the following command:
+This will open a window where you can see the tests being executed.
+
+#### Option 2: Terminal
+For a simpler, text-based approach, run:
 
 ```bash
 npx playwright test
 ```
 
-### 7. View Test Report
-To view a test report, run the tests in the terminal (using the command above) and then execute the following command:
+### 8. View Test Report
+
+To view a report of the test results, open the terminal and run:
 
 ```bash
 npx playwright show-report
 ```
 
-Happy Hacking! If you have any questions or encounter any issues, feel free to reach out.
+That's it! You've successfully run the tests, following the Page Object Model pattern using dotenv. If you have any questions, don't hesitate to ask. Happy testing!![image](https://github.com/Ravzy7/lulatest/assets/48820644/1c7c2b94-d3b2-4dff-9f0c-d7fb26c82933)
